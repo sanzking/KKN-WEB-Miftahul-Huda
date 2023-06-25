@@ -1,0 +1,33 @@
+header .header-image{
+    background-color: #bbcdff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+header .header-slogan {
+    display: flex;
+    justify-content: space-between;
+}
+header .header-slogan .slogan {
+    background-color: #302c2c;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header .header-slogan .slogan .slogIcon{
+    font-size: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+header .header-slogan .slogan .slogDesc{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}

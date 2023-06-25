@@ -1,0 +1,99 @@
+main.kontak {
+    background-color: #f0f2f5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+main.kontak .map {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 10px;
+    border: 5px dotted black;
+    box-shadow: 1px 1px 3px 1px black;
+}
+main.kontak .form-email {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15%;
+    margin-left: 10px;
+}
+main.kontak .form-email .name-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main.kontak .form-email .name-email input[type='text'] {
+    padding: 10px;
+    margin: 5px;
+    width: 250px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 1px 1px 1px 0px black;
+}
+
+main.kontak .form-email .alamat-email input[type='email'] {
+    padding: 10px;
+    margin: 5px;
+    width: 550px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 1px 1px 1px 0px black;
+}
+main.kontak .form-email .pesan-email textarea {
+    padding: 10px;
+    margin: 5px;
+    width: 550px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 1px 1px 1px 0px black;
+}
+main.kontak .form-email .send-email input[type='submit'] {
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+    background-color: #0E8FAB;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 0px black;
+}
+@media (max-width: 768px) {
+    main.kontak {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    main.kontak .map {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 60px;
+        width: 90%;
+    }
+    main.kontak .map iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    main.kontak .form-email {
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    main.kontak .form-email .name-email input[type='text']{
+        width: 100%;
+        max-width: 100%;
+    }
+    main.kontak .form-email .alamat-email input[type='email']{
+        width: 100%;
+        max-width: 91%;
+    }
+    main.kontak .form-email .pesan-email textarea{
+        width: 100%;
+        max-width: 91%;
+    }
+    main.kontak .form-email .send-email input[type='submit'] {
+        width: 100%;
+        max-width: 98%;
+    }
+}

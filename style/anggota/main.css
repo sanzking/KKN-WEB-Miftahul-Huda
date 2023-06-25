@@ -1,0 +1,138 @@
+main section.proker {
+    background-color: #f0f2f5;
+    padding: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+main section.proker h1 {
+    font-size: 2rem;
+}
+main section.proker p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+main section.proker .row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+main section.proker #dospem {
+    background-color: red;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+    box-shadow: 1px 1px 3px 1px black;
+}
+main section.proker .row .card {
+    background-color: white;
+    box-shadow: 1px 1px 3px 0px black;
+    margin: 10px;
+}
+main section.proker .row .card .cardhead {
+    background-color: #0E8FAB;
+    padding: 10px;
+    color: #fff;
+}
+main section.proker .row .card .cardBody {
+    padding: 10px;
+    height: 300px;
+    max-width: 400px;
+    text-align: center;
+}
+main section.proker .row .card .cardBody img{
+    width: 200px;
+    height: auto;
+}
+main section.proker .row .card .cardBody .name{
+    background-color: #11292e;
+    color: #fff;
+    padding: 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+main section.proker .row .dospem-img img{
+    width: 200px;
+    height: 100%;
+}
+main section.proker .row .dospem-desc {
+    padding: 20px;
+}
+main section.proker .row .dospem-desc h1 {
+    font-size: 3rem;
+}
+main section.proker .row .dospem-desc p {
+    font-size: 2rem;
+}
+@media screen and (max-width: 768px) {
+    main section.proker {
+      padding: 20px;
+    }
+  
+    main section.proker h1 {
+      font-size: 1.5rem;
+    }
+  
+    main section.proker p {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  
+    main section.proker .row {
+      flex-wrap: wrap;
+      margin-left: 0%;
+      margin-right: 0%;
+      justify-content: center;
+    }
+  
+    main section.proker .row .card {
+      width: 46%;
+      margin: 5px;
+    }
+  
+    main section.proker .row .card .cardhead {
+      padding: 0px;
+      font-size: 1rem;
+    }
+  
+    main section.proker .row .card .cardBody {
+      padding: 5px;
+      height: auto;
+      max-width: none;
+    }
+  
+    main section.proker .row .card .cardBody img {
+      width: 100%;
+      height: auto;
+    }
+  
+    main section.proker .row .card .cardBody .name {
+      font-size: 1rem;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    main section.proker #dospem {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    main section.proker #dospem .dospem-img img {
+      width: 100%;
+      height: auto;
+    }
+  
+    main section.proker .row .dospem-desc {
+      padding: 10px;
+    }
+  
+    main section.proker .row .dospem-desc h1 {
+      font-size: 2rem;
+    }
+  
+    main section.proker .row .dospem-desc p {
+      font-size: 1rem;
+    }
+  }
+  

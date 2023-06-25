@@ -1,0 +1,318 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f2f5;
+}
+main section.feed {
+    margin-left: 40px;
+    width: 65%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+main section.feed .posting{
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 1px 1px 3px 1px #bdbdbd;
+    display: flex;
+    justify-content: space-between;
+}
+main section.feed .posting button.post{
+    text-align: left;
+    background-color: #f1f1f1;
+    border: 1px solid white;
+    border-top-left-radius: 900px;
+    border-bottom-left-radius: 900px;
+    padding: 10px;
+    margin-right: 5px;
+    width: 80%;
+}
+main section.feed .posting button.image{
+    background-color: #7d5fff;
+    color: #fff;
+    border: 1px solid white;
+    border-top-right-radius: 900px;
+    border-bottom-right-radius: 900px;
+    padding: 10px;
+    margin-left: 5px;
+    width: 20%;
+}
+main section.feed .beranda{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+main section.feed .beranda .pos {
+    width: 60%;
+}
+main section.feed .beranda .beranda-posting {
+    background-color: #fff;
+    padding: 10px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 1px 1px 3px 1px #bdbdbd;
+}
+main section.feed .beranda .beranda-posting .head-berpost {
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+main section.feed .beranda .beranda-posting .head-berpost img {
+    height: 50px;
+    width: 50px;
+    border-radius: 999px;
+    margin-right: 20px;
+}
+main section.feed .beranda .beranda-posting .head-berpost .user-name {
+    align-items: center;
+    margin-bottom: -5px;
+}
+main section.feed .beranda .beranda-posting .head-berpost .post-date {
+    align-items: center;
+    margin-top: -5px;
+}
+main section.feed .beranda .beranda-posting .body-berpost .caption-post{
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+main section.feed .beranda .beranda-posting .body-berpost .image-post img{
+    height: 100%;
+    width: 100%;
+}
+main section.feed .beranda .online-user {
+    background-color: #fff;
+    padding: 10px;
+    width: 30%;
+    max-height: 250px;
+    box-shadow: 1px 1px 3px 1px #bdbdbd;
+}
+main section.feed .beranda .online-user ul {
+    padding: 20px;
+    list-style: none;
+}
+main section.feed .beranda .online-user ul li {
+    background-color: transparent;
+    color: #000;
+    margin-bottom: 5px;
+}
+main section.feed .beranda .online-user ul li.online-user-title {
+    background-color: transparent;
+    color: #424242;
+    margin-bottom: 10px;
+}
+main section.feed .beranda .online-user ul li .active {
+    background-color: green;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+}
+main section.feed .beranda .online-user ul li .inactive {
+    background-color: red;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+}
+
+main section.user-online {
+    background-color: #fff;
+    margin-right: 30px;
+    width: 25%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px #bdbdbd;
+    max-height: 400px;
+}
+main section.user-online ul {
+    padding: 20px;
+    list-style: none;
+}
+main section.user-online ul li {
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+main section.user-online ul li.headlist {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 0px;
+}
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f0f2f5;
+        margin: 0;
+        padding: 0;
+    }
+      
+    main section.feed {
+        margin: 40px 20px;
+        width: calc(100% - 40px);
+        border-radius: 10px;
+    }
+      
+    main section.feed .posting {
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 1px 1px 3px 1px #bdbdbd;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+      
+    main section.feed .posting button.post {
+        width: 80%;
+        border-top-left-radius: 900px;
+        border-bottom-left-radius: 900px;
+        margin-right: -10px;
+    }
+      
+    main section.feed .posting button.image {
+        width: 20%;
+        padding: 5px;
+        margin-left: -10px;
+        border-top-right-radius: 900px;
+        border-bottom-right-radius: 900px;
+        font-size: 18px;
+    }
+      
+    main section.feed .beranda {
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    main section.feed .beranda .pos {
+        width: 100%;
+    }
+      
+    main section.feed .beranda .beranda-posting {
+        order: -1;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        padding: 0px;
+    }
+      
+    main section.feed .beranda .beranda-posting .head-berpost {
+        margin: 10px 20px;
+    }
+    main section.feed .beranda .beranda-posting .head-berpost .info-post {
+        margin-top: 10px;
+    }
+      
+    main section.feed .beranda .beranda-posting .head-berpost img {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+      
+    main section.feed .beranda .beranda-posting .body-berpost .caption-post {
+        font-size: 15px;
+        padding: 20px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+    main section.feed .beranda .beranda-posting .body-berpost .image-post {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main section.feed .beranda .beranda-posting .body-berpost .image-post img {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+      
+    main section.feed .beranda .online-user {
+        order: 0;
+        background-color: #fff;
+        padding: 0px;
+        width: 100%;
+        max-height: none;
+        box-shadow: 1px 1px 3px 1px #bdbdbd;
+        margin: 0 auto;
+        margin-bottom: 20px; 
+    }
+      
+    main section.feed .beranda .online-user ul {
+        padding: 20px; 
+        list-style: none;
+    }
+      
+    main section.feed .beranda .online-user ul li {
+        background-color: transparent;
+        color: #000;
+        margin-bottom: 5px;
+    }
+      
+    main section.feed .beranda .online-user ul li.online-user-title {
+        background-color: transparent;
+        color: #424242;
+        margin-bottom: 10px;
+    }
+      
+    main section.feed .beranda .online-user ul li .active {
+        background-color: green;
+        color: #fff;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 0.7rem;
+    }
+      
+    main section.feed .beranda .online-user ul li .inactive {
+        background-color: red;
+        color: #fff;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 0.7rem;
+    }
+      
+    main section.user-online {
+        margin-right: 0;
+        margin-left: 0;
+        width: 80%;
+        max-height: none;
+        padding: 20px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+      
+    main section.user-online ul {
+        padding: 0;
+        list-style: none;
+    }
+      
+    main section.user-online ul li {
+        background-color: green;
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+      
+    main section.user-online ul li.headlist {
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        padding: 10px;
+        margin: -20px -20px 10px -20px;
+        text-align: center;
+        border-radius: 0;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}

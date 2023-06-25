@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/beranda/style.css">
+    <link rel="stylesheet" href="style/beranda/nav.css">
+    <link rel="stylesheet" href="style/beranda/header.css">
+    <link rel="stylesheet" href="style/beranda/main.css">
+    <title>KKN - STIE Mifda Subang</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo-nav">
+            KKNMIFDA
+        </div>
+        <div id="btnNav">
+            <button id="openit" onclick="openNav()"><i class="bi bi-list"></i></button>
+            <button id="closeit" onclick="closeNav()"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <ul id="myNav" class="menu-nav" onclick="closeNav()">
+            <li class="login">
+                <a href="index.html">Beranda</a>
+            </li>
+            <li>
+                <a href="anggota.html">Anggota</a>
+            </li>
+            <li>
+                <a href="#">Galeri</a>
+            </li>
+            <li>
+                <a href="kontak.html">Kontak</a>
+            </li>
+            <li>
+                <a href="#">Masuk</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-image">
+            <img id="headerImage" src="images/image-header.jpg" alt="Header Image">
+        </div>
+    </header>
+    <main>
+        <section class="feed">
+            <div class="posting">
+                <button type="button" class="post">Tuliskan sesuatu disini yuk!</button>
+                <button id="photoPost" type="button" class="image">Tambahkan foto</button>
+            </div>
+            <div class="beranda">
+                <div class="online-user">
+                    <ul>
+                        <li class="online-user-title">USER ONLINE</li>
+                        <li><span class="active">online</span> Muhammad Shohibul Faqih</li>
+                        <li><span class="active">online</span> Fahad Faisal Gimnastiar</li>
+                        <li class="online-user-title" style="margin-top: 10px;">USER OFFLINE</li>
+                        <li><span class="inactive">offline</span> Ghani Sukma Hadi</li>
+                        <li><span class="inactive">offline</span> Tedi Ardiansyah</li>
+                    </ul>
+                </div>
+                <div class="pos">
+                    <div class="beranda-posting">
+                        <div class="head-berpost">
+                            <img src="images/profile-image.png" alt="">
+                            <div class="info-post">
+                                <div class="user-name">
+                                    <h3>Go Yoon Jung</h3>
+                                </div>
+                                <div class="post-date">
+                                    <p>1j yang lalu.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-berpost">
+                            <div class="caption-post">
+                                <p>
+                                    Halo guys, perkenalkan namaku Go Yoon Jung. Aku adalah anggota ke 5 dari kelompok KKN Di desa xxx ini. Saya disini berperan sebagai IT Department dalam pelaksanaan program kerja ini.
+                                </p>
+                            </div>
+                            <div class="image-post">
+                                <img src="images/profile-image.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="beranda-posting">
+                        <div class="head-berpost">
+                            <img src="images/profile-image.png" alt="">
+                            <div class="info-post">
+                                <div class="user-name">
+                                    <h3>Go Yoon Jung</h3>
+                                </div>
+                                <div class="post-date">
+                                    <p>1j yang lalu.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-berpost">
+                            <div class="caption-post">
+                                <p>
+                                    Halo guys, perkenalkan namaku Go Yoon Jung. Aku adalah anggota ke 5 dari kelompok KKN Di desa xxx ini. Saya disini berperan sebagai IT Department dalam pelaksanaan program kerja ini.
+                                </p>
+                            </div>
+                            <div class="image-post">
+                                <img src="images/profile-image.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="user-online">
+            <ul>
+                <li class="headlist">ARTIKEL</li>
+                <li>Perkenalan anggota kelompok</li>
+                <li>Perencanaan persiapan acara 17 agustusan di desa xxx</li>
+                <li>Evaluasi dari pelaksanaan acara 17 agustusan di desa xxx</li>
+                <li>Salam perpisahan dengan masyarakat desa xxx</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="footDesc">
+            <p>KKN STIE MIFDA © Copyright 2023.</p>
+        </div>
+        <div class="footSosmed">
+            <div class="stiemifda">
+                <a href="#"><img src="https://stiemifdasubang.ac.id/wp-content/uploads/2021/06/Logo-STIE-Miftahul-Huda-Subang.png" alt="" srcset=""></a>
+            </div>
+            <div class="instagram">
+                <a href="#"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png" alt="" srcset=""></a>
+            </div>
+            <div class="youtube">
+                <a href="#"><img src="https://freelogopng.com/images/all_img/1656501968youtube-icon-png.png" alt="" srcset=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script/beranda/header.js"></script>
+    <script src="script/beranda/main.js"></script>
+    <script src="script/beranda/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    background-color: #2596be;
+    display: flex;
+    justify-content: space-between;
+}
+nav #btnNav {
+    display: none;
+}
+nav .logo-nav {
+    margin-left: 20%;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav .menu-nav {
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav .menu-nav li {
+    margin-right: 20px;
+}
+nav .menu-nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav .menu-nav li.login a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #0E8FAB;
+    padding: 10px;
+}
+nav .menu-nav li.login a:hover {
+    background-color: #0E8FAB;
+    color: white;
+}
+nav .menu-nav li a:hover {
+    background-color: #28364a;
+    padding: 10px;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    nav .logo-nav {
+      margin-left: 10px;
+    }
+    nav #btnNav {
+        display: block;
+    }
+    nav #btnNav #openit{
+        background-color: transparent;
+        margin-right: 40px;
+        font-size: 1rem;
+        color: #fff;
+        font-weight: bold;
+        border: 1px solid rgb(150, 152, 255);
+        padding-right: 10px;
+        padding-left: 10px;
+        display: block;
+    }
+    nav #btnNav #closeit{
+        background-color: transparent;
+        margin-right: 40px;
+        font-size: 1rem;
+        color: #fff;
+        font-weight: bold;
+        border: 1px solid rgb(150, 152, 255);
+        padding-right: 10px;
+        padding-left: 10px;
+        display: none;
+    }
+    nav .menu-nav {
+        position: fixed;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        top: 70px;
+        left: 0;
+        width: 90%;
+        background-color: #2596be;
+        border: 1px dotted white;
+        display: none;
+        max-height: none;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+  
+    nav .menu-nav.open {
+      display: flex;
+    }
+  
+    nav .menu-nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    nav .menu-nav li.login a {
+        color: #fff;
+        background-color: #000000;
+        
+    }
+    nav .menu-nav li a {
+        color: #fff;
+        padding: 5px;
+    }
+  
+    nav .dropdown-button {
+      display: block;
+      color: white;
+      cursor: pointer;
+    }
+  }
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}

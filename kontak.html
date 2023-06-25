@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/kontak/style.css">
+    <link rel="stylesheet" href="style/kontak/nav.css">
+    <!-- <link rel="stylesheet" href="style/anggota/header.css"> -->
+    <link rel="stylesheet" href="style/kontak/main.css">
+    <title>KKN - STIE Mifda Subang</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo-nav">
+            KKNMIFDA
+        </div>
+        <div id="btnNav">
+            <button id="openit" onclick="openNav()"><i class="bi bi-list"></i></button>
+            <button id="closeit" onclick="closeNav()"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <ul id="myNav" class="menu-nav" onclick="closeNav()">
+            <li>
+                <a href="index.html">Beranda</a>
+            </li>
+            <li>
+                <a href="anggota.html">Anggota</a>
+            </li>
+            <li>
+                <a href="#">Galeri</a>
+            </li>
+            <li class="login">
+                <a href="kontak.html">Kontak</a>
+            </li>
+            <li>
+                <a href="#">Masuk</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="kontak">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6727342627714!2d107.81539877591456!3d-6.306656993682594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e694507b167fd65%3A0xe6b780737d105d15!2sSTIE%20Miftahul%20Huda%20SUBANG!5e0!3m2!1sid!2sid!4v1687680776925!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+        <div class="form-email">
+            <form action="email.php" method="post">
+                <div class="name-email">
+                    <input type="text" placeholder="Nama Depan">
+                    <input type="text" placeholder="Nama Belakang">
+                </div>
+                <div class="alamat-email">
+                    <input type="email" placeholder="Email Kamu">
+                </div>
+                <div class="pesan-email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Masukan Pesan Kamu"></textarea>
+                </div>
+                <div class="send-email">
+                    <input type="submit" value="Kirim Pesan">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footDesc">
+            <p>KKN STIE MIFDA © Copyright 2023.</p>
+        </div>
+        <div class="footSosmed">
+            <div class="stiemifda">
+                <a href="#"><img src="https://stiemifdasubang.ac.id/wp-content/uploads/2021/06/Logo-STIE-Miftahul-Huda-Subang.png" alt="" srcset=""></a>
+            </div>
+            <div class="instagram">
+                <a href="#"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png" alt="" srcset=""></a>
+            </div>
+            <div class="youtube">
+                <a href="#"><img src="https://freelogopng.com/images/all_img/1656501968youtube-icon-png.png" alt="" srcset=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script/kontak/nav.js"></script>
+</body>
+</html>
