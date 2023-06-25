@@ -24,7 +24,7 @@ The KKN website is built using various technologies and languages, including:
 
 To set up the KKN website locally or deploy it to a web server, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/kkn-website.git`
+1. Clone the repository: `git clone https://github.com/sanzking/KKN-WEB-Miftahul-Huda.git`
 2. Install any necessary dependencies, such as a local web server or database server.
 3. Configure the database connection settings in the PHP files.
 4. Start the web server and open the website in a web browser.
